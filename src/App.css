@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  background: linear-gradient(185deg, black, rgb(2, 100, 95));
+}
+
+.container-login,
+.container-login div {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  font-size: 3rem;
+  padding: 4px;
+  gap: 8px;
+  box-sizing: border-box;
+}
+
+.container-login {
+  margin-top: 14%;
+  gap: 2px;
+  max-height: 250px;
+  height: 100vh;
+}
+
+.container-login div input {
+  width: 80%;
+  padding: 4px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.login {
+  width: 28%;
+  border: 4px solid cyan;
+}
+
+p {
+  margin-top: 12px;
+  font-size: 1.5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: rgba(69, 140, 202, 0.795);
+  font-size: 1.5rem;
+}
+
+#input-boton {
+  width: 30%;
+  margin: 12px;
+  background-color: from cyan to white;
+}
