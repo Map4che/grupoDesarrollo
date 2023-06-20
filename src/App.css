@@ -1,42 +1,61 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  background: linear-gradient(185deg, black, rgb(2, 100, 95));
+}
+
+.container-login,
+.container-login div {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  font-size: 3rem;
+  padding: 4px;
+  gap: 8px;
+  box-sizing: border-box;
+}
+
+.container-login {
+  margin-top: 14%;
+  gap: 2px;
+  max-height: 250px;
+  height: 100vh;
+}
+
+.container-login div input {
+  width: 80%;
+  padding: 4px;
+  font-size: 1.6rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.login {
+  width: 28%;
+  border: 4px solid cyan;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  margin-top: 12px;
+  font-size: 1.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.link {
+  text-decoration: none;
+  color: rgba(69, 140, 202, 0.795);
+  font-size: 1.5rem;
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+#input-boton {
+  width: 30%;
+  margin: 12px;
+  background-color: from cyan to white;
 }
