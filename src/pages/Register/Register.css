@@ -16,12 +16,6 @@
     height: 100vh;
 }
 
-/* 
-.container-login__form{
-
-} 
-*/
-
 .container-login__form form{
     display: flex;
     flex-direction: column;
